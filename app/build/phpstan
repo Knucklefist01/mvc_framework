@@ -1,0 +1,19 @@
+
+Warning: file_get_contents(): Filename cannot be empty in C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\framework\app\vendor\bin\phpstan on line 13
+
+Call Stack:
+    0.0002     405368   1. {main}() C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\framework\app\vendor\bin\phpstan:0
+    0.0003     405368   2. file_get_contents($filename = FALSE) C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\framework\app\vendor\bin\phpstan:13
+
+
+Warning: include(): Filename cannot be empty in C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\framework\app\vendor\bin\phpstan on line 24
+
+Call Stack:
+    0.0002     405368   1. {main}() C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\framework\app\vendor\bin\phpstan:0
+
+
+Warning: include(): Failed opening '' for inclusion (include_path='C:\xampp\php\PEAR') in C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\framework\app\vendor\bin\phpstan on line 24
+
+Call Stack:
+    0.0002     405368   1. {main}() C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\framework\app\vendor\bin\phpstan:0
+
