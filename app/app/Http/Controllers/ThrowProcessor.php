@@ -10,6 +10,8 @@ use App\Http\Dice\DiceHand;
  */
 class ThrowProcessor
 {
+    protected $data = [];
+
     public function __invoke()
     {
         $single = new Dice();

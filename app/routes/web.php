@@ -7,6 +7,8 @@ use App\Http\Controllers\DiceGame;
 use App\Http\Controllers\DiceProcessor;
 use App\Http\Controllers\YatzyGame;
 use App\Http\Controllers\YatzyProcessor;
+use App\Http\Controllers\BooksController;
+use App\Http\Controllers\ScoresController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,3 +55,9 @@ Route::post('/diceProcessor', [DiceProcessor::class, '__invoke']);
 // Yatzy
 Route::get('/yatzy', [YatzyGame::class, '__invoke']);
 Route::post('/yatzyProcessor', [YatzyProcessor::class, '__invoke']);
+
+// Books
+Route::get('/books', [BooksController::class, 'showBooks']);
+
+// Highscores
+Route::get('/highscores', [ScoresController::class, 'yatzyScores']);

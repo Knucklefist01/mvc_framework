@@ -1,0 +1,44 @@
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Console\Kernel.php:25	Avoid unused parameters such as '$schedule'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Exceptions\Handler.php:37	Avoid unused parameters such as '$e'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\BooksController.php:15	Avoid using static access to class '\App\Models\Book' in method 'showBooks'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\BooksController.php:15	Avoid unused local variables such as '$books'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\BooksController.php:27	Avoid unused local variables such as '"books"'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\DiceGame.php:26	The method __invoke uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\DiceGame.php:32	The method __invoke uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\DiceProcessor.php:26	The method __invoke uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\DiceProcessor.php:34	The method __invoke uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\ScoresController.php:15	Avoid unused local variables such as '$scores'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\ScoresController.php:19	Avoid unused local variables such as '"scores"'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\ThrowProcessor.php:20	Avoid using undefined variables such as '$data' which will lead to PHP notices.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\ThrowProcessor.php:21	Avoid using undefined variables such as '$data' which will lead to PHP notices.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\ThrowProcessor.php:26	Avoid using undefined variables such as '$data' which will lead to PHP notices.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\ThrowProcessor.php:29	Avoid using undefined variables such as '$data' which will lead to PHP notices.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\ThrowProcessor.php:32	Avoid using undefined variables such as '$data' which will lead to PHP notices.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Dice\Yatzy.php:102	The method pickPoints uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Dice\Yatzy.php:122	The method throwDice uses an else expression. Else clauses are basically not necessary and you can simplify the code by not using them.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Dice\Yatzy.php:132	The method calcOptions() has a Cyclomatic Complexity of 19. The configured cyclomatic complexity threshold is 10.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Http\Dice\Yatzy.php:132	The method calcOptions() has an NPath complexity of 17920. The configured NPath complexity threshold is 200.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Providers\BroadcastServiceProvider.php:17	Avoid using static access to class '\Illuminate\Support\Facades\Broadcast' in method 'boot'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\app\Providers\RouteServiceProvider.php:59	Avoid using static access to class '\Illuminate\Support\Facades\RateLimiter' in method 'configureRateLimiting'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\factories\UserFactory.php:30	Avoid using static access to class '\Illuminate\Support\Str' in method 'definition'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\factories\UserFactory.php:41	Avoid unused parameters such as '$attributes'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_000000_create_users_table.php:16	Avoid using short method names like CreateUsersTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_000000_create_users_table.php:16	Avoid using short method names like CreateUsersTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_000000_create_users_table.php:18	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_000000_create_users_table.php:36	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_100000_create_password_resets_table.php:16	Avoid using short method names like CreatePasswordResetsTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_100000_create_password_resets_table.php:16	Avoid using short method names like CreatePasswordResetsTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_100000_create_password_resets_table.php:18	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2014_10_12_100000_create_password_resets_table.php:32	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:16	Avoid using short method names like CreateFailedJobsTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:16	Avoid using short method names like CreateFailedJobsTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:18	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2019_08_19_000000_create_failed_jobs_table.php:36	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_29_130004_create_books_table.php:16	Avoid using short method names like CreateBooksTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_29_130004_create_books_table.php:16	Avoid using short method names like CreateBooksTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_29_130004_create_books_table.php:18	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_29_130004_create_books_table.php:35	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_30_143417_create_scores_table.php:16	Avoid using short method names like CreateScoresTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_30_143417_create_scores_table.php:16	Avoid using short method names like CreateScoresTable::up(). The configured minimum method name length is 3.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_30_143417_create_scores_table.php:18	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'up'.
+C:\cygwin64\home\Hannes\dbwebb-kurser\mvc\me\orm\app\database\migrations\2021_04_30_143417_create_scores_table.php:32	Avoid using static access to class '\Illuminate\Support\Facades\Schema' in method 'down'.

@@ -5,7 +5,9 @@ $navLinks = [
     ["link" => "session", "label" => "Session"],
     ["link" => "throw", "label" => "Kasta Tärning"],
     ["link" => "dice", "label" => "Game 21"],
-    ["link" => "yatzy", "label" => "Yatzy"]
+    ["link" => "yatzy", "label" => "Yatzy"],
+    ["link" => "books", "label" => "Böcker"],
+    ["link" => "highscores", "label" => "Highscores"],
 ]
 ?>
 <!DOCTYPE html>

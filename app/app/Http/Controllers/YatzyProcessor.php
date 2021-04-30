@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Dice\Yatzy;
+use App\Models\Score;
 
 /**
  * Controller for a sample route an controller class.
@@ -33,6 +34,12 @@ class YatzyProcessor
         } else if (isset($_POST["pointsSubmit"])) {
             $_SESSION["yatzyGame"]->pickPoints($_POST["category"], $_POST["points"]);
         } else if (isset($_POST["resetSubmit"])) {
+            $data = $_SESSION["yatzyGame"]->getData();
+
+            $storeScore = new Score();
+            $storeScore->points = $data["scoreTotal"];
+            $storeScore->save();
+
             unset($_SESSION["yatzyGame"]);
         }
 
